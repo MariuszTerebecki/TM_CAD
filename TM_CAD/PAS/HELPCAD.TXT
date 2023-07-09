@@ -1,0 +1,359 @@
+.topic NoContext=0
+
+            ∞±≤€≤±∞ TM CAD ∞±≤€≤±∞
+
+              wersja prototypowa
+
+ …ÕÕÕÕÕ›  Charakterystyka programu:   ﬁÕÕÕÕÕª
+ ∫ {Korzystanie z pomocy:UseHelp}                     ∫€
+ «ƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒ∂€
+ ∫ {órodowisko tekstowe:TextID}                      ∫€
+ ∫ {órodowisko graficzne:GraphID}                     ∫€
+ »ÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕº€
+  ﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ
+
+.topic UseHelp
+
+ ‹ Korzystanie z pomocy
+ ﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ
+
+Program "TM CAD" w celu uàatwienia obsàugi pocz•tkuj•cym uæytkownikom
+posiada system pomocy wewn©trznych wykonany na zasadzie tekst¢w opisuj•cych
+aktualnie wybieran• {belk© wyboru:MenuBar}. Teksty te podzielone s• na dwie
+grupy:
+ - kr¢tka podpowied´ w linii statusu
+   ( w dolnej cz©òci ekranu ) informuj•ca
+   jednym zdaniem o przeznaczeniu belki,
+ - bardziej szszeg¢àowy opis belki oraz inne
+   teksty pomocnicze wyòwietlane w okienku po
+   naciòni©ciu klawisza F1 lub wybraniu belki
+   "Pomoc" z menu gà¢wnego.
+
+{Spis treòci:NoContext}
+
+.topic TextID
+
+ ‹ órodowisko tekstowe
+ ﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ
+
+Korzystanie ze òrodowiska tekstowego programu "TM CAD" jest bardzo proste
+dzi©ki zastosowaniu standardowego sposobu komunkacji programu z
+uæytkownikiem wykorzystuj•cego system menu rozwijalnego. Poniæej zostaàa
+przedstawiona budowa {menu gà¢wnego:MainMenu}. Skàada si© ono z czterech
+{belek wyboru:MenuBar}, z kt¢rych dwie pierwsze otwieraj• {podmena:SubMenu},
+trzecia uruchamia edycj© rysunku, natomiast czwarta uruchamia pomoc.
+Podmena skàadaj• si© z belek wyboru uruchamiaj•cych
+przyporz•dkowane im funkcje programu lub kolejne podmena.
+W poniæszym spisie wszystkich belek zawartych w programie
+gà©bokoòÜ wysuni©cia oznacza stopie‰ "ukrycia" w podmenach.
+
+{Menu gà¢wne:MainMenu}
+ {System:System}
+   {Autor:About}
+   {DOS na chwil©:DOSShell}
+   {Wyjòcie z programu:Exit}
+ {Pliki:Files}
+   {Odczytaj:Open}
+   {Zachowaj:Save}
+   {Zachowaj jako:SaveAs}
+   {Zmie‰ katalog:ChangeDir}
+   {Drukowanie:Print}
+ {Edycja:Edit}
+ {Pomoc:Help}
+
+ {Charakterystyka programu:NoContext}
+
+.topic GraphID
+
+ {Wr¢Ü:NoContext}
+
+.topic MenuBar
+
+ ‹ Belka wyboru
+ ﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ
+
+Belk• wyboru w programach wykorzystuj•cych system menu nazywa si© jedno lub
+kilku wyrazow• nazw© opcji, kt¢rej wybranie powoduje uruchomienie tej opcji.
+W szczeg¢lnoòci opcj• moæe byÜ zestaw kolejnych belek wyboru tworz•cych
+{podmena:SubMenu}. Wyboru poszczeg¢lnych belek dokonuje si© na kilka
+sposob¢w:
+ - poprzez wciòni©cie na klawiaturze
+   przyporz•dkowanego jej gor•cego klawisza -
+   zestawu przycisk¢w, kt¢rych naciòni©cie w
+   dowolnej chwili pracy programu powoduje
+   wyb¢r opcji, kt¢rej s• przyporz•dkowane
+   ( w opisach poszczeg¢lnych belek wyboru
+   gor•ce klawisze oznaczone s• w prawym
+   g¢rnym rogu okienka pomocy ),
+ - poprzez wciòni©cie na klawiaturze
+   przycisku z liter• wyr¢ænion• w jej
+   nazwie przy jednoczeònie wciòni©tym
+   klawiszu ALT,
+ - poprzez wciòni©cie klawisza F10 (
+   sterowanie menu gà¢wnym przy pomocy
+   klawiszy steruj•cych ), wybraniu dowolnej
+   belki wyboru przy pomocy klawiszy
+   steruj•cych i zatwierdzeniu wyboru
+   klawiszem ENTER,
+ - poprzez naprowadzenie kursora myszy na
+   obszar ekranu zajmowany przez dan• belk©
+   wyboru i zatwierdzenie wyboru przyciskiem
+   myszy.
+
+   {Spis treòci:NoContext}
+   {Menu gà¢wne:MainMenu}
+
+.topic Window
+
+ ‹ Okienko
+ ﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ
+
+Okienkiem w programach wykorzystuj•cych system menu jest obszar ekranu,
+w kt¢rym pojawiaj• si© informacje oraz polecenia dla uæytkownika. Okienko
+w cz©òci tekstowej programu TM CAD w og¢lnoòci wygl•da nast©puj•co:
+
+    ⁄ ikonka zamykaj•ca okienko
+    ≥
+ …Õ[˛]ÕÕÕÕÕÕ Nazwa okienka ÕÕÕÕÕÕÕª
+ ∫                                ∫€
+ ∫  Informacja        [Przycisk1] ∫€
+ ∫                                ∫€
+ ∫     lub            [Przycisk2] ∫€
+ ∫                                ∫€
+ ∫  polecenie         [Przycisk3] ∫€
+ ∫                                ∫€
+ »ÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕº€
+  ﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ
+
+   {Spis treòci:NoContext}
+   {Menu gà¢wne:MainMenu}
+   {Okienko "Otw¢rz":FileLoadBox}
+   {Okienko "Zachowaj":FileSaveBox}
+   {Okienko "Zmiana katalogu":ChangeDirBox}
+
+.topic SubMenu
+
+ ‹ Podmenu
+ ﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ
+
+Podmenu w programach wykorzystuj•cych system menu nazywa si© zestaw kilku
+{belek wyboru:MenuBar} zgrupowanych wedàug dowolnego kryterium pojawiaj•cy
+si© na ekranie po wybraniu przyporz•dkowanej mu innej belki wyboru.
+Kaæda belka wyboru umieszczona w podmenu moæe po wybraniu otwieraÜ kolejne
+podmena lub uruchamiaÜ zwi•zane z ni• opcje ( czynnoòci wykonywane przez
+program ).
+
+   {Spis treòci:NoContext}
+   {Menu gà¢wne:MainMenu}
+   {Podmenu "System":System}
+   {Podmenu "Pliki":Files}
+
+.topic MainMenu
+
+  €ﬂﬂ€                             F10
+  ﬂﬂﬂﬂ
+
+MENU Gù‡WNE
+
+Budowa menu gà¢wnego programu:
+ - cztery {belki wyboru:MenuBar},
+ - zegarek czasu systemowego.
+
+ {órodowisko tekstowe:TextID}
+
+.topic System
+
+  €                               Alt+Spacja
+  ﬂﬂﬂﬂ
+
+{PODMENU:SubMenu} SYSTEM
+
+{Podmenu:SubMenu} zawiera trzy {belki wyboru:MenuBar} :
+ - {Autor:About}
+ - {DOS na chwil©:DosShell}
+ - {Wyjòcie z programu:Exit}
+ {órodowisko tekstowe:TextID}
+
+.topic About
+
+  €  ≥ Autor                      Alt+A
+  ﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ
+
+{BELKA WYBORU:MenuBar} AUTOR
+
+Wyòwietlenie informacji o autorze programu.
+
+ {órodowisko tekstowe:TextID}
+
+.topic DosShell
+
+  €  ≥ DOS na chwil©              Alt+D
+  ﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ
+
+{BELKA WYBORU:MenuBar} DOS NA CHWIL®
+
+Chwilowe opuszczenie pracy z programem w celu wykonania polecenia
+systemowego.
+
+ {órodowisko tekstowe:TextID}
+
+.topic Exit
+
+  €  ≥ Wyjòcie z programu         Esc, Alt+W
+  ﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ
+
+{BELKA WYBORU:MenuBar} WYJóCIE Z PROGRAMU
+
+Ostateczne zako‰czenie pracy z programem. Jeòli w chwili wykonania tego
+polecenia w pami©ci znajduje si© nie zapami©tany rysunek, to program spyta
+przy pomocy odpowiedniego {okienka:Window} dialogowego, czy go zapami©taÜ.
+
+ {órodowisko tekstowe:TextID}
+
+.topic Files
+
+  € Pliki                          Alt+P
+  ﬂﬂﬂﬂﬂﬂﬂ
+
+{PODMENU:SubMenu} PLIKI
+
+{Podmenu:SubMenu} zawiera pi©Ü {belek wyboru:MenuBar} :
+ - {Otw¢rz:Open}
+ - {Zachowaj:Save}
+ - {Zachowaj jako:SaveAs}
+ - {Zmie‰ katalog:ChangeDir}
+ - {Drukuj:Print}
+
+ {órodowisko tekstowe:TextID}
+
+.topic Open
+
+  € Pliki ≥ OTW‡RZ                 F2
+  ﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ
+
+{BELKA WYBORU:MenuBar} OTW‡RZ
+
+Wczytanie do pami©ci rysunku z dysku. W przypadku bà©du odczytu zostanie on
+zasygnalizowany w odpowiednim okienku informacyjnym. Naleæy uwaæaÜ, aby nie
+wczytaÜ pliku nie b©d•cego rysunkiem w formacie TMC, poniewaæ moæe to
+spowodowaÜ r¢ænego rodzaju bà©dy systemowe, jak bà©dy przydziaàu pami©ci,
+czy operacji dyskowych.
+
+ {órodowisko tekstowe:TextID}
+
+.topic Save
+
+  € Pliki ≥ Zachowaj               F3
+  ﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ
+
+{BELKA WYBORU:MenuBar} ZACHOWAJ
+
+Zapisanie rysunku na dysku. W przypadku bà©du zapisu zostanie on
+zasygnalizowany w odpowiednim okienku informacyjnym.
+
+ {órodowisko tekstowe:TextID}
+
+.topic SaveAs
+
+  € Pliki ≥ Zachowaj jako          Alt+F3
+  ﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ
+
+{BELKA WYBORU:MenuBar} ZACHOWAJ JAKO
+
+Opcja podobna do opcji ZACHOWAJ, lecz udost©pnia moæliwoòÜ zapisu pod nazw•
+podan• przez uæytkownika.
+
+ {órodowisko tekstowe:TextID}
+
+.topic ChangeDir
+
+  € Pliki ≥ Zmie‰ katalog          F4
+  ﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ
+
+{BELKA WYBORU:MenuBar} ZMIE„ KATALOG
+
+Zmiana aktualnego katalogu oraz dysku.
+
+ {órodowisko tekstowe:TextID}
+
+.topic Print
+
+  € Pliki ≥ Drukuj                 F5
+  ﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ
+
+{BELKA WYBORU:MenuBar} DRUKUJ
+
+Wydruk aktualnie przetwarzanego rysunku na drukarce HP Laser Jet podà•czonej
+do portu LPT1 komputera. Naleæy uæywaÜ wyà•cznie w chwili, gdy jest pewne,
+æe drukarka jest prawidàowo podà•czona oraz wà•czona. Niedostosowanie si© do
+tego moæe spowodowaÜ nieprzewidywalne bà©dy.
+
+ {órodowisko tekstowe:TextID}
+
+.topic Edit
+
+  € Edycja                         Alt+D
+  ﬂﬂﬂﬂﬂﬂﬂﬂ
+
+{BELKA WYBORU:MenuBar} EDYCJA
+
+Uruchomienie edycji rysunku ( cz©òÜ graficzna ).
+
+ {órodowisko tekstowe:TextID}
+
+.topic Help
+
+  € Pomoc                          F1, Alt+M
+  ﬂﬂﬂﬂﬂﬂﬂ
+
+{BELKA WYBORU:MenuBar} POMOC
+
+Wyòwietlenie tekstu pomocy.
+
+ {órodowisko tekstowe:TextID}
+.topic ChangeDirBox
+
+ ‹ Zmiana katalogu
+ ﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ
+
+{OKIENKO:Window} ZMIANA KATALOGU
+
+Okienko "Zmiana katalogu" sàuæy do zmiany aktualnego katalogu i dysku.
+Aby tego dokonaÜ, naleæy wprowadziÜ peàn• jego nazw© w linii podpisanej
+jako "Nazwa katalogu" lub wybraÜ go z listy katalog¢w i dysk¢w umieszczonej
+w polu "Drzewo katalogu" potwierdzaj•c klawiszem "Zamie‰" i zatwierdziÜ
+wyb¢r przyciskaj•c przycisk "Dalej" - zatwierdzaj•cy katalog, kt¢rego nazwa
+umieszczona jest w polu "Nazwa katalogu" jako aktywny. Umieszczony poniæej
+przycisk "Odwr¢Ü" odtwarza stan sprzed wywoàania niniejszego okienka,
+natomiast przycisk "Pomoc" wyòwietla aktualnie czytany tekst.
+
+.topic FileLoadBox
+
+ ‹ Wczytanie rysunku
+ ﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ
+
+{OKIENKO:Window} WCZYTANIE RYSUNKU
+
+Okienko "Otw¢rz" sàuæy do wczytania rysunku zapisanego na dysku. Dokonuje
+si© tego wpisuj•c jego nazw© w polu "Nazwa" lub wybieraj•c go z listy plik¢w
+umieszczonej w polu "Pliki" i zatwierdzaj•c wyb¢r przyciskaj•c przycisk
+"Otw¢rz". Poàoæony poniæej przycisk "Anuluj" powoduje opuszczenie okienka
+bez wczytania rysunku, natomiast przycisk "Pomoc" wyòwietla aktualnie czytany
+tekst.
+
+.topic FileSaveBox
+
+ ‹ Zapisanie rysunku
+ ﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ
+
+{OKIENKO:Window} ZAPISANIE RYSUNKU
+
+Okienko "Zachowaj" sàuæy do zachowania rysunku na dysku. Dokonuje si© tego
+wpisuj•c jego nazw© w polu "Nazwa" lub wybieraj•c plik, do kt¢rego ma on
+zostaÜ zapisany z listy plik¢w umieszczonej w polu "Pliki" i zatwierdzaj•c
+wyb¢r przyciskaj•c przycisk "Dalej". Poàoæony poniæej przycisk "Zamie‰"
+wciòni©ty w chwili, gdy w polu "Nazwa" znajduje si© prawidàowa nazwa pliku
+istniej•cego, powoduje zachowanie w nim rysunku, w przeciwnym powoduje
+przejòcie do katalogu podòwietlonego w polu "Pliki". Przycisk "Anuluj"
+powoduje opuszczenie okienka bez zachowania rysunku, natomiast przycisk
+"Pomoc" wyòwietla aktualnie czytany tekst.
